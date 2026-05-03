@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Quiz App</title>
+</head>
+
+<body class="min-h-screen flex items-center justify-center">
+  <div class="w-full max-w-xl bg-white rounded-2xl shadow-xl p-6 relative">
+    <h1 class="text-2xl font-bold text-gray-800 mb-6">Quiz App</h1>
+    <div class="absolute top-6 right-6 quiz-element">
+      <div class="h-12 w-12 bg-red-500 text-white rounded-full flex items-center justify-center font-bold shadow-lg ring-4 ring-red-200">
+        <span class="quiz-timer"></span>
+      </div>
+    </div>
+    <div class="mb-6">
+      <p class="text-gray-500 text-sm mb-1">Question <span class="quiz-number"></span></p>
+      <h2 class="text-lg font-semibold text-gray-800">
+        <span class="quiz-question"></span>
+      </h2>
+    </div>
+    <div class="grid grid-cols-2 gap-4 quiz-options"></div>
+  </div>
+
+  <script src="./js/script.js" type="module"></script>
+</body>
+</html>
