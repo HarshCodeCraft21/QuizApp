@@ -43,7 +43,7 @@ function display_quiz() {
     return;
   }
 
-  let { question, options, answer } = quiz_data;
+  let { question, options, answer, has_image } = quiz_data;
 
   Ques++;
   quizNumber.innerText = Ques;
@@ -62,7 +62,7 @@ function display_quiz() {
       "shadow-sm",
     );
 
-    if (option.includes(".png") || option.includes(".jpg")) {
+    if (has_image) {
       let img = document.createElement("img");
       img.src = option;
       img.classList.add("w-16", "h-16", "object-contain");

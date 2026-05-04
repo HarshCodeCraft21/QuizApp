@@ -4,6 +4,7 @@ export const quiz_question = [
     question: "Which language is used for styling web pages?",
     options: ["HTML", "Jquery", "CSS", "XML"],
     answer: "CSS",
+    has_image: false,
   },
   {
     id: 2,
@@ -15,18 +16,21 @@ export const quiz_question = [
       "None of the above",
     ],
     answer: "HyperText Transfer Protocol",
+    has_image: false,
   },
   {
     id: 3,
     question: "Which planet is known as the Red Planet?",
     options: ["Earth", "Mars", "Jupiter", "Venus"],
     answer: "Mars",
+    has_image: false,
   },
   {
     id: 4,
     question: "Which company developed JavaScript?",
     options: ["Microsoft", "Google", "Netscape", "Oracle"],
     answer: "Netscape",
+    has_image: false,
   },
   {
     id: 5,
@@ -38,5 +42,6 @@ export const quiz_question = [
       "../../public/react.jpg",
     ],
     answer: "../../public/js.png",
+    has_image: true,
   },
 ];
