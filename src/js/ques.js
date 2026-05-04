@@ -36,12 +36,12 @@ export const quiz_question = [
     id: 5,
     question: "Which logo represents JavaScript?",
     options: [
-      "/public/js.png",
-      "/public/html.jpg",
-      "/public/css.jpg",
-      "/public/react.jpg",
+      "images/js.png",
+      "images/html.jpg",
+      "images/css.jpg",
+      "images/react.jpg",
     ],
-    answer: "../../public/js.png",
+    answer: "images/js.png",
     has_image: true,
   },
 ];
